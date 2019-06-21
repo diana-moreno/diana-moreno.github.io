@@ -1,6 +1,8 @@
 ## DIANA MORENO
 <br>
 
+![perfil-image](https://github.com/Diana-moreno/Diana-moreno.github.io/blob/master/downlosad.png) 
+
 ### ABOUT ME
 I'm a new coder that have changed my career a few months ago, leaving behind the administration and accountancy's world.<br/>
 Since I know about this field, I haven't stopped learning and I love it.
