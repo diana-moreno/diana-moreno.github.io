@@ -1,20 +1,20 @@
 ## DIANA MORENO
-<br>
 
 ### ABOUT ME
-I'm a new coder that have changed my career a few months ago, leaving behind the administration and accountancy's world.<br/>
+I'm a new coder that have changed my career a few months ago, leaving behind the administration and accountancy's world.<br>
 Since I know this field, I haven't stopped learning and I love it.<br>
 Actually, I'm a studient at Skylab coding bootcamp.
 <br>
-
+<br>
 ### PROJECTS
-In this section I will be uploading a few of my personal tech projects.<br/> 
+In this section I will be uploading a few of my personal tech projects.<br> 
 If you want to discus something about them, just contact me.
 <br>
 
 ### 1. [Calculator](https://diana-moreno.github.io/calculator/)
 
-In this project, I have coded a simple calculator which has the following features:
+In this project, I have coded a simple and functional calculator.<br><br>
+**Features:**
 - Allows to operate with nested parentheses expressions.
 - Allows do and undo movements.
 - Allows reset and start new calculations.
