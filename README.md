@@ -9,7 +9,7 @@ Actually, I'm a studient at Skylab coding bootcamp.
 
 ### PROJECTS
 In this section I will be uploading a few of my personal tech projects.<br> 
-If you want to discus something about them, just contact me.
+If you want to discuss something about them, just contact me.
 
 ### 1. [Calculator](https://diana-moreno.github.io/calculator/)
 
