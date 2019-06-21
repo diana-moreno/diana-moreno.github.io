@@ -1,11 +1,12 @@
 ## DIANA MORENO
+<br>
 
 ### ABOUT ME
 I'm a new coder that have changed my career a few months ago, leaving behind the administration and accountancy's world.<br>
 Since I know this field, I haven't stopped learning and I love it.<br>
 Actually, I'm a studient at Skylab coding bootcamp.
 <br>
-<br>
+
 ### PROJECTS
 In this section I will be uploading a few of my personal tech projects.<br> 
 If you want to discus something about them, just contact me.
