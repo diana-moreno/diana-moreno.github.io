@@ -1,10 +1,7 @@
-## DIANA MORENO
-
-
 ### ABOUT ME
-I'm a new coder that have changed my career a few months ago, leaving behind the administration and accountancy's world.<br>
-Since I know this field, I haven't stopped learning and I love it.<br>
-Actually, I'm a studient at Skylab coding bootcamp.
+My name is Diana Moreno and I'm a studient at Skylab coding bootcamp.<br>
+I have changed my career a few months ago, leaving behind the administration and accountancy's world.<br>
+Since I know this field, I haven't stopped learning, and I love it.<br>
 
 
 ### PROJECTS
@@ -26,3 +23,8 @@ In this project, I have coded a simple and functional calculator.<br><br>
 - Works properly both with keyboard and mouse.
 
 
+### CONTACT
+You can find me in the following platforms:<br>
+
+**GitHub:** Diana-moreno<br>
+**LinkedIn:** Diana Moreno Arranz
