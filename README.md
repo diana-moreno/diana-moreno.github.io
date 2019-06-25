@@ -27,5 +27,5 @@ The purpose was to practice with the mix of CSS, HTML, logic Javascript and mous
 ### CONTACT
 You can find me in the following platforms:<br>
 
-**GitHub:** diana-moreno<br>
-**LinkedIn:** Diana Moreno Arranz
+**GitHub:** [diana-moreno](https://github.com/Diana-moreno)<br>
+**LinkedIn:** [Diana Moreno Arranz](https://www.linkedin.com/in/diana-moreno-arranz-650b84ab/)
