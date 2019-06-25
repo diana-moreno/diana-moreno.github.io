@@ -10,7 +10,8 @@ If you want to discuss something about them, just contact me.
 
 ### 1. [Calculator](https://diana-moreno.github.io/calculator/)
 
-In this project, I have coded a simple and functional calculator.<br><br>
+In this project, I have coded a simple and functional calculator.<br>
+The purpose was to practice with the mix of CSS, HTML, logic Javascript and mouse and keyboard events.<br><br>
 **Features:**
 - Allows to operate with nested parentheses expressions.
 - Allows do and undo movements.
