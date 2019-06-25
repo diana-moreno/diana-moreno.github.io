@@ -1,0 +1,16 @@
+.images {
+  height: 400px;
+  width: 500px;
+}
+.hidden {
+  display: none;
+}
+.card {
+  background-color: beige;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+.card-group {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
