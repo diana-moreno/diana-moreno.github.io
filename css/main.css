@@ -64,6 +64,7 @@ a:hover {
   }
   .nav-link {
     font-size: 1.7rem;
+    padding: .5rem 0.4rem;
   }
   .title > h2,
   .subtitle > p {
