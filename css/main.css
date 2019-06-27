@@ -62,6 +62,7 @@ a:hover {
 
 /* smartphones, Android phones, landscape iPhone */
 @media (min-width:480px) {
+  body {
   background-color: green;
   background-image: none;
   }
