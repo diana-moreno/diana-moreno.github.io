@@ -1,11 +1,12 @@
 body {
   font-size: 14px;
-  background-color: black;
+  background-color: white;
   width: 100%;
   box-sizing: content-box;
 }
 .nav {
   border-bottom: 0.5rem solid red;
+  background-color: black;
 }
 .nav-link {
   color: white;
@@ -18,7 +19,7 @@ body {
   display: flex;
   width: 100%;
   height: calc(100% - 57px);
-  overflow-y: hidden;
+  overflow: hidden;
 }
 .container-left,
 .container-right {
