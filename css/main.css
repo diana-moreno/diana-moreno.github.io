@@ -1,5 +1,5 @@
 body {
-  font-size: 14px;
+  sssfont-size: 14px;
   width: 100%;
   box-sizing: content-box;
   background-image: url('../img/poppy-186635_1920.jpg');
@@ -12,7 +12,7 @@ body {
 }
 .nav-link {
   color: white;
-  font-size: 1.4rem;
+  sssfont-size: 1.4rem;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #fff;
@@ -24,26 +24,26 @@ a:hover {
 }
 .title > h2,
 .subtitle > p {
-  font-size: 6rem;
-  line-height: 1;
-  letter-spacing: 0.1em;
-  margin-bottom: 1.6rem;
+  sssfont-size: 6rem;
+  sssline-height: 1;
+  sssletter-spacing: 0.1em;
+  sssmargin-bottom: 1.6rem;
   font-family: "futura_m", sans-serif;
   font-weight: normal;
   text-shadow: 0 1px 1px rgba(2, 11, 22, 0.5);
   color: white;
 }
 #title1 {
-  margin-top: 9rem;
-  margin-left: 2rem;
+  sssmargin-top: 9rem;
+  sssmargin-left: 2rem;
 }
 #title2 {
-  margin-left: 6rem;
+  sssmargin-left: 6rem;
   animation-delay: 300ms;
 }
 .subtitle > p {
   font-size: 3rem;
-  margin-left: 10rem;
+  sssmargin-left: 10rem;
 }
 .animated {
   animation-duration: 3s;
@@ -55,7 +55,30 @@ a:hover {
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 @media (min-width:320px) {
   body {
-    background-color: red;
+    font-size: 10px;
+    background-size: cover;
+  }
+  .nav-link {
+    font-size: 1.4rem;
+  }
+  .title > h2,
+  .subtitle > p {
+    font-size: 6rem;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.6rem;
+  }
+  #title1 {
+    margin-top: 9rem;
+    margin-left: 2rem;
+  }
+  #title2 {
+    margin-left: 6rem;
+  }
+  .subtitle > p {
+    font-size: 3rem;
+    margin-left: 10rem;
+    color: #d8c2c2;
   }
 }
 
@@ -74,6 +97,27 @@ a:hover {
 /* hi-res laptops and desktops */
 @media (min-width:1281px) {
   body {
-    background-color: blue;
+    font-size: 14px;
+  }
+  .nav-link {
+    font-size: 1.4rem;
+  }
+  .title > h2,
+  .subtitle > p {
+    font-size: 6rem;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.6rem;
+  }
+  #title1 {
+    margin-top: 9rem;
+    margin-left: 2rem;
+  }
+  #title2 {
+    margin-left: 6rem;
+  }
+  .subtitle > p {
+    font-size: 3rem;
+    margin-left: 10rem;
   }
 }
