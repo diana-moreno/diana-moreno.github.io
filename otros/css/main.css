@@ -1,0 +1,87 @@
+body {
+  font-size: 14px;
+  font-family: fantasy;
+}
+#perfil-img {
+  border-radius: 50%;
+  width: 7rem;
+}
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/fondo-gris-personas-que-quieran-utilizar-graficos-publicitarios_44621-555.jpg);
+  background-size: cover;
+  color: white;
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+  animation-duration: 5s;
+}
+.text-presentation,
+.contact,
+.text-presentation > p {
+  font-size: 1.1rem;
+  margin: 0 4rem;
+}
+
+
+.text-section {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 2rem 0;
+  color: #8f8f8f;
+}
+.section-title {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 1rem;
+}
+h3, h5 {
+  color: #2a2929;
+}
+
+
+.card-deck {
+  justify-content: center;
+  text-align: justify;
+  width: 100%;
+  color: #8f8f8f;;
+}
+.card,
+.card-img-top {
+  max-width: 302px;
+  min-width: 260px;
+}
+.card-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+#card4 {
+  animation-delay: 1500ms;
+}
+#card3 {
+  animation-delay: 2000ms;
+}
+#card2 {
+  animation-delay: 2500ms;
+}
+#card1 {
+  animation-delay: 3000ms;
+}
+.card {
+ border: 0;
+}
+.text-muted {
+  text-align: center;
+}
+.card-footer:hover {
+  font-size: 1rem;
+}
+.card-footer > a {
+  text-decoration: none;
+  color: #2a2929;
+}

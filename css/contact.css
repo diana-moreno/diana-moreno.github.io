@@ -1,0 +1,56 @@
+body {
+  font-size: 14px;
+  background-color: black;
+  width: 100%;
+  box-sizing: content-box;
+}
+.nav {
+  border-bottom: 0.5rem solid red;
+}
+.nav-link {
+  color: white;
+  font-size: 1.4rem;
+  border-radius: 0%;
+}
+.main-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: calc(100% - 57px);
+  overflow-x: hidden;
+}
+.container-left,
+.container-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-right {
+  background-color: white;
+}
+.container-left {
+  background-color: black;
+}
+.container-right > p {
+  font-size: 4rem;
+  font-family: 'Satisfy', cursive;
+  margin-bottom: 0;
+}
+.icon {
+  color: white;
+  font-size: 4rem;
+  margin: 2rem;
+}
+.container-icons {
+  display: flex;
+}
+.code-sign {
+  font-size: 4rem;
+  color: blue;
+  font-weight: 900;
+}
+.icon:hover {
+  color: blue;
+}

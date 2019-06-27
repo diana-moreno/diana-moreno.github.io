@@ -1,0 +1,75 @@
+body {
+  font-size: 14px;
+  background-color: black;
+  width: 100%;
+  box-sizing: content-box;
+}
+.nav {
+  border-bottom: 0.5rem solid red;
+}
+.nav-link {
+  color: white;
+  font-size: 1.4rem;
+  border-radius: 0%;
+}
+.main-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: calc(100% - 57px);
+  overflow-y: hidden;
+}
+.container-left,
+.container-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-left {
+  background-color: white;
+}
+.container-right {
+  background-color: black;
+
+}
+.container-left > p {
+  font-size: 4rem;
+  font-family: 'Satisfy', cursive;
+  margin-bottom: 0;
+}
+.code-sign {
+  font-size: 4rem;
+  color: blue;
+  font-weight: 900;
+}
+.text > p {
+  font-size: 1rem;
+  color: white;
+  line-height: 4rem;
+  text-align: center;
+}
+article {
+  width: 100%;
+  height: 100%;
+  padding: 2rem 7rem;
+}
+#perfil-picture {
+  border-radius: 100%;
+  margin-right: 3rem;
+}
+.heading-presentation {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+}
+.picture {
+  text-align: center;
+  margin-top: 4rem;
+}
+.picture > img {
+  width: 16rem;
+}
