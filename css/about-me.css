@@ -43,21 +43,11 @@ a:hover {
   background-color: black;
   border-left: 0.5rem solid #127a88;
 }
-.first-word,
-.second-word > p {
+.container-left > p {
   font-size: 4rem;
   font-family: 'Satisfy', cursive;
   margin-bottom: 0;
   display: flex;
-}
-.container-tags {
-  width: 80%;
-}
-.first-word {
-  justify-content: flex-start;
-}
-.second-word {
-  justify-content: flex-end;
 }
 .code-sign {
   font-size: 4rem;

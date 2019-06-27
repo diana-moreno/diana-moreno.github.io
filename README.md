@@ -1,8 +1,7 @@
 ### ABOUT ME
-My name is Diana Moreno and I'm a studient at Skylab coding bootcamp.<br>
-I have changed my career a few months ago, leaving behind the administration and accountancy's world.<br>
-Since I know this field, I haven't stopped learning, and I love it.<br>
-
+My name is Diana Moreno and nowadays, I am a Full Stack Web Development student at Skylab Coding Bootcamp.<br>
+I decided to change my career a few months ago, so I had to package and leave the Administration and Accountancy’s world behind, starting a new whole tech path.<br>
+Since I discovered this field, I haven’t stopped learning, and I love it.<br>
 
 ### PROJECTS
 In this section I will be uploading a few of my personal tech projects.<br> 
