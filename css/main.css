@@ -1,6 +1,8 @@
 body {
   font-size: 14px;
   background-color: white;
+  background-image: url('../img/poppy-186635_1920.jpg');
+  background-size: cover;
 }
 .nav {
   border-bottom: 0.5rem solid #127a88;
@@ -42,4 +44,21 @@ footer {
 .icons {
   color: white;
   font-size: 1rem;
+}
+.title > h2 {
+  font-size: 6rem;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.6rem;
+  font-family: "futura_m", sans-serif;
+  font-weight: normal;
+  text-shadow: 0 1px 1px rgba(2, 11, 22, 0.5);
+  color: white;
+}
+#title1 {
+  margin-top: 9rem;
+  margin-left: 2rem;
+}
+#title2 {
+  margin-left: 6rem;
 }
