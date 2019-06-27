@@ -5,11 +5,6 @@ body {
   background-image: url('../img/poppy-186635_1920.jpg');
   background-size: cover;
 }
-.nav {
-  width: 50%;
-  position: fixed;
-  top: 0;
-}
 .nav-link {
   color: white;
   sssfont-size: 1.4rem;
@@ -62,9 +57,9 @@ a:hover {
   }
   .nav {
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
   }
   .nav-link {
@@ -103,8 +98,17 @@ a:hover {
 
 /* hi-res laptops and desktops */
 @media (min-width:1281px) {
+  html {
+    font-size: 16px;
+  }
   body {
-    font-size: 14px;
+    background-image: url('../img/poppy-186635_1920.jpg');
+  }
+  .nav {
+    width: 50%;
+    position: fixed;
+    top: 0;
+    justify-content: unset;
   }
   .nav-link {
     font-size: 1.4rem;
