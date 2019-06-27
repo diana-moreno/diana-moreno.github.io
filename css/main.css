@@ -1,23 +1,21 @@
 body {
   font-size: 14px;
-  background-color: black;
+  background-color: white;
 }
 .nav {
   border-bottom: 0.5rem solid red;
+  background-color: white;
 }
 .nav-link {
-  color: white;
+  color: black;
   font-size: 1.4rem;
   border-radius: 0%;
 }
 .header-image > img {
   width: 100%;
 }
-.header-image {
-  background-color: white;
-}
 .main-text {
-  color: white;
+  color: black;
   text-align: center;
   margin-top: 7rem;
   font-size: 3rem;
