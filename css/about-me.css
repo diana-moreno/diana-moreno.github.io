@@ -37,7 +37,7 @@ a:hover {
   justify-content: center;
 }
 .container-right {
-  background-color: black;
+  background-color: #000000c2;
 }
 .container-left > p {
   font-size: 4rem;
