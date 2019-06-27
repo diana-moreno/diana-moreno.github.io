@@ -8,7 +8,7 @@ body {
 }
 .nav {
   width: 50%;
-  position: fixed;
+  position: absolute;
 }
 .nav-link {
   color: white;
@@ -49,7 +49,6 @@ a:hover {
 .code-sign {
   font-size: 4rem;
   color: white;
-  dcolor: #127a88;
   font-weight: 900;
 }
 .text > p {
