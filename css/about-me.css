@@ -3,11 +3,12 @@ body {
   background-color: white;
   width: 100%;
   box-sizing: content-box;
+  background-image: url('../img/poppy-186635_1920.jpg');
+  background-size: cover;
 }
 .nav {
-  border-bottom: 0.5rem solid #127a88;
-  background-image: url('../img/turquoise-background-767269.jpg');
-  background-color: #22c0d4;
+  width: 50%;
+  position: fixed;
 }
 .nav-link {
   color: white;
@@ -26,7 +27,6 @@ a:hover {
   padding: 0;
   display: flex;
   width: 100%;
-  height: calc(100% - 57px);
   overflow: hidden;
 }
 .container-left,
@@ -36,22 +36,20 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-.container-left {
-  background-color: white;
-}
 .container-right {
   background-color: black;
-  border-left: 0.5rem solid #127a88;
 }
 .container-left > p {
   font-size: 4rem;
   font-family: 'Satisfy', cursive;
   margin-bottom: 0;
   display: flex;
+  color: white;
 }
 .code-sign {
   font-size: 4rem;
-  color: #127a88;
+  color: white;
+  dcolor: #127a88;
   font-weight: 900;
 }
 .text > p {
