@@ -52,39 +52,28 @@ a:hover {
   animation-delay: 600ms;
 }
 
-@media screen and (min-device-width : 601px) and (min-width: 601px) {
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-width:320px) {
   body {
-    font-size: 1.2rem;
-  }
-  .row-cart {
-    width: 85%;
-  }
-  input {
-    width: 3rem;
+    background-color: red;
   }
 }
 
-@media screen and (min-device-width : 993px) and (min-width: 993px) {
-  body {
-    font-size: 1.3rem;
-  }
-  .row-cart {
-    width: 75%;
-  }
-  input {
-    width: 6rem;
-  }
-}
+/* smartphones, Android phones, landscape iPhone */
+@media (min-width:480px) {  }
 
-@media screen and (min-device-width : 1201px) and (min-width: 1201px){
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width:600px) {  }
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:801px) {  }
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) { }
+
+/* hi-res laptops and desktops */
+@media (min-width:1281px) {
   body {
-    font-size: 1.4rem;
-    min-width: 1000px;
-  }
-  .row-cart {
-    width: 65%;
-  }
-  input {
-    width: 8rem;
+    background-color: blue;
   }
 }
