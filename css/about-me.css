@@ -12,12 +12,14 @@ body {
 .nav-link {
   color: white;
   font-size: 1.4rem;
-  border-radius: 0%;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #fff;
   border-radius: 0;
   background-color: #127a88;
+}
+a:hover {
+  color: #127a88;
 }
 .main-container {
   margin: 0;
@@ -90,9 +92,6 @@ article {
 }
 .picture > img {
   width: 16rem;
-}
-a:hover {
-  color: #127a88;
 }
 .first-word,
 .second-word {
