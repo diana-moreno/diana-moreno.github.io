@@ -25,9 +25,9 @@ a:hover {
 .title > h2,
 .subtitle > p {
   sssfont-size: 6rem;
-  sssline-height: 1;
-  sssletter-spacing: 0.1em;
-  sssmargin-bottom: 1.6rem;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.6rem;
   font-family: "futura_m", sans-serif;
   font-weight: normal;
   text-shadow: 0 1px 1px rgba(2, 11, 22, 0.5);
@@ -54,30 +54,36 @@ a:hover {
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 @media (min-width:320px) {
-  body {
+  html {
     font-size: 10px;
-    background-size: cover;
+  }
+  body {
+    background-image: url("../img/poppy-186635_1920-mobile.jpg");
+  }
+  .nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    justify-content: space-around;
+    display: flex;
   }
   .nav-link {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
   }
   .title > h2,
   .subtitle > p {
-    font-size: 6rem;
-    line-height: 1;
-    letter-spacing: 0.1em;
-    margin-bottom: 1.6rem;
+    font-size: 3rem;
   }
   #title1 {
-    margin-top: 9rem;
-    margin-left: 2rem;
+    margin-top: 11rem;
+    margin-left: 3rem;
   }
   #title2 {
-    margin-left: 6rem;
+    margin-left: 7rem;
   }
   .subtitle > p {
-    font-size: 3rem;
-    margin-left: 10rem;
+    font-size: 1.5rem;
+    margin-left: 11rem;
     color: #d8c2c2;
   }
 }
