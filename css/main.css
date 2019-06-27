@@ -51,3 +51,40 @@ a:hover {
 .subtitle {
   animation-delay: 600ms;
 }
+
+@media screen and (min-device-width : 601px) and (min-width: 601px) {
+  body {
+    font-size: 1.2rem;
+  }
+  .row-cart {
+    width: 85%;
+  }
+  input {
+    width: 3rem;
+  }
+}
+
+@media screen and (min-device-width : 993px) and (min-width: 993px) {
+  body {
+    font-size: 1.3rem;
+  }
+  .row-cart {
+    width: 75%;
+  }
+  input {
+    width: 6rem;
+  }
+}
+
+@media screen and (min-device-width : 1201px) and (min-width: 1201px){
+  body {
+    font-size: 1.4rem;
+    min-width: 1000px;
+  }
+  .row-cart {
+    width: 65%;
+  }
+  input {
+    width: 8rem;
+  }
+}
