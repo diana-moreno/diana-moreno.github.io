@@ -3,10 +3,14 @@ body {
   background-color: white;
   width: 100%;
   box-sizing: content-box;
+  background-image: url('../img/poppy-186635_1920.jpg');
+  background-size: cover;
 }
 .nav {
-  border-bottom: 0.5rem solid #127a88;
-  background-image: url('../img/turquoise-background-767269.jpg');
+  width: 50%;
+  position: absolute;
+  right: 0;
+  justify-content: flex-end;
 }
 .nav-link {
   color: white;
@@ -25,7 +29,7 @@ a:hover {
   padding: 0;
   display: flex;
   width: 100%;
-  height: calc(100% - 57px);
+  height: 100%;
   overflow-x: hidden;
 }
 .container-left,
@@ -35,16 +39,14 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-.container-right {
-  background-color: white;
-}
 .container-left {
-  background-color: black;
+  background-color: #000000c2;
 }
-.container-right > p {
+.container-icons > p {
   font-size: 4rem;
   font-family: 'Satisfy', cursive;
   margin-bottom: 0;
+  color: white;
 }
 .icon {
   color: white;
@@ -54,9 +56,10 @@ a:hover {
 .container-icons {
   display: flex;
 }
+
 .code-sign {
   font-size: 4rem;
-  color: #127a88;
+  color: white;
   font-weight: 900;
 }
 .icon:hover {
