@@ -56,6 +56,7 @@ a:hover {
 @media (min-width:320px) {
   body {
     background-color: red;
+    background-image: none;
   }
 }
 
