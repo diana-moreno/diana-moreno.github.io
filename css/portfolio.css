@@ -7,7 +7,7 @@ body {
   width: 100%;
   box-sizing: content-box;
   background-image: url("../img/poppy-186635_1920-mobile.jpg");
-  background-size: cover;
+  background-attachment: fixed;
 }
 /*Navbar*/
 .nav {
@@ -31,6 +31,50 @@ body {
 a:hover {
   color: #127a88;
 }
+/*projects section*/
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.list-group {
+  position: fixed;
+  left: 0;
+  margin: 2rem;
+  width: 20rem;
+  width: 20%;
+}
+.list-group-item {
+  background-color: #fff0;
+  color: white;
+}
+.scrollspy-example {
+  margin: 4rem;
+  margin-top: 6rem;
+  width: 80%;
+}
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000007d;
+  margin-right: 2rem;
+  width: 128%;
+}
+.project-text {
+  margin: 2rem;
+}
+.project-picture > img {
+  width: 15rem;
+  margin-left: 2rem;
+}
+.project-text > p,
+.project-text > h4 {
+  color: white;
+}
+
+
+
 
 
 /* smartphones, Android phones, landscape iPhone */
