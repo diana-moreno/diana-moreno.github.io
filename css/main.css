@@ -1,5 +1,5 @@
  html {
-  font-size: 10px;
+  font-size: 16px;
 }
 body {
   font-size: 10px;
@@ -65,14 +65,14 @@ a:hover {
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 @media (min-device-width:480px) {
   html {
-    font-size: calc(10px + 6 * ((100vw - 320px) / 801));
+    font-size: calc(10px + 6 * ((100vw - 480px) / 801));
   }
   body {
     background-image: url('../img/poppy-186635_1920.jpg');
   }
-
   .nav-link {
-    font-size: 1.4rem;
+    color: white;
+    font-size: 25.6px;
   }
   .title > h2,
   .subtitle > p {
@@ -95,12 +95,15 @@ a:hover {
 }
 
 /* smartphones, Android phones, landscape iPhone */
-@media (min-width:510px) {
+@media (min-width:818px) {
   .nav {
     width: 50%;
     position: fixed;
     top: 0;
     justify-content: unset;
+  }
+  .nav-link {
+    padding: .5rem 0.5rem;
   }
 }
 

@@ -83,3 +83,48 @@ article {
 .second-word {
   display: flex;
 }
+
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-device-width:480px) {
+  html {
+    font-size: calc(10px + 4 * ((100vw - 320px) / 801));
+  }
+  body {
+    background-image: url('../img/poppy-186635_1920.jpg');
+  }
+  .nav-link {
+    font-size: 1.4rem;
+  }
+}
+
+/* smartphones, Android phones, landscape iPhone */
+@media (min-width:510px) {
+  .nav {
+    width: 50%;
+    position: fixed;
+    top: 0;
+    justify-content: unset;
+  }
+}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width:600px) {
+
+}
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:801px) {
+
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+
+}
+
+/* hi-res laptops and desktops */
+@media (min-width:1281px) {
+  html {
+    font-size: 14px;
+  }
+}
