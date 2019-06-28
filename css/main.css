@@ -1,13 +1,24 @@
+ html {
+  font-size: 10px;
+}
 body {
-  sssfont-size: 14px;
+  font-size: 10px;
   width: 100%;
   box-sizing: content-box;
-  background-image: url('../img/poppy-186635_1920.jpg');
+  background-image: url("../img/poppy-186635_1920-mobile.jpg");
   background-size: cover;
+}
+.nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  justify-content: space-between;
+  display: flex;
 }
 .nav-link {
   color: white;
-  sssfont-size: 1.4rem;
+  font-size: 1.6rem;
+  padding: .5rem 0.3rem;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #fff;
@@ -19,7 +30,7 @@ a:hover {
 }
 .title > h2,
 .subtitle > p {
-  sssfont-size: 6rem;
+  font-size: 3rem
   line-height: 1;
   letter-spacing: 0.1em;
   margin-bottom: 1.6rem;
@@ -29,88 +40,37 @@ a:hover {
   color: white;
 }
 #title1 {
-  sssmargin-top: 9rem;
-  sssmargin-left: 2rem;
+  margin-top: 11rem;
+  margin-left: 3rem;
+  animation-delay: 600ms;
 }
 #title2 {
-  sssmargin-left: 6rem;
-  animation-delay: 300ms;
+  margin-left: 7rem;
+  animation-delay: 1500ms;
 }
 .subtitle > p {
-  font-size: 3rem;
-  sssmargin-left: 10rem;
+  font-size: 1.5rem;
+  margin-left: 11rem;
+  color: #d8c2c2;
 }
 .animated {
   animation-duration: 3s;
+
 }
 .subtitle {
-  animation-delay: 600ms;
+  animation-delay: 2000ms;
 }
+
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-@media (min-width:320px) {
+@media (min-device-width:480px) {
   html {
-    font-size: 10px;
-  }
-  body {
-    background-image: url("../img/poppy-186635_1920-mobile.jpg");
-  }
-  .nav {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    justify-content: space-between;
-    display: flex;
-  }
-  .nav-link {
-    font-size: 1.7rem;
-    padding: .5rem 0.4rem;
-  }
-  .title > h2,
-  .subtitle > p {
-    font-size: 3rem;
-  }
-  #title1 {
-    margin-top: 11rem;
-    margin-left: 3rem;
-  }
-  #title2 {
-    margin-left: 7rem;
-  }
-  .subtitle > p {
-    font-size: 1.5rem;
-    margin-left: 11rem;
-    color: #d8c2c2;
-  }
-}
-
-/* smartphones, Android phones, landscape iPhone */
-@media (min-width:480px) {
-}
-
-/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-@media (min-width:600px) {  }
-
-/* tablet, landscape iPad, lo-res laptops ands desktops */
-@media (min-width:801px) {  }
-
-/* big landscape tablets, laptops, and desktops */
-@media (min-width:1025px) { }
-
-/* hi-res laptops and desktops */
-@media (min-width:1281px) {
-  html {
-    font-size: 16px;
+    font-size: calc(10px + 6 * ((100vw - 320px) / 801));
   }
   body {
     background-image: url('../img/poppy-186635_1920.jpg');
   }
-  .nav {
-    width: 50%;
-    position: fixed;
-    top: 0;
-    justify-content: unset;
-  }
+
   .nav-link {
     font-size: 1.4rem;
   }
@@ -131,5 +91,36 @@ a:hover {
   .subtitle > p {
     font-size: 3rem;
     margin-left: 10rem;
+  }
+}
+
+/* smartphones, Android phones, landscape iPhone */
+@media (min-width:510px) {
+  .nav {
+    width: 50%;
+    position: fixed;
+    top: 0;
+    justify-content: unset;
+  }
+}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width:600px) {
+
+}
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:801px) {
+
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+
+}
+
+/* hi-res laptops and desktops */
+@media (min-width:1281px) {
+  html {
+    font-size: 16px;
   }
 }
