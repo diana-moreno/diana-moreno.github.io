@@ -1,16 +1,21 @@
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 html {
   font-size: 10px;
 }
 body {
-  font-size: 14px;
   width: 100%;
   box-sizing: content-box;
   background-image: url('../img/poppy-186635_1920.jpg');
   background-size: cover;
 }
+/*Navbar*/
 .nav {
-  width: 50%;
+  width: 100%;
   position: absolute;
+  top: 0;
+  justify-content: space-around;
+  display: flex;
+  z-index: 1;
 }
 .nav-link {
   color: white;
@@ -24,6 +29,7 @@ body {
 a:hover {
   color: #127a88;
 }
+/*main containers*/
 .main-container {
   margin: 0;
   padding: 0;
@@ -31,103 +37,153 @@ a:hover {
   width: 100%;
   overflow: hidden;
 }
-.container-left,
+.container-left {
+  width: 20%;
+  justify-content: left;
+}
 .container-right {
-  width: 50%;
-  display: flex;
-  align-items: center;
+  width: 80%;
+  overflow-y: auto;
+  background-color: #000000c2;
   justify-content: center;
 }
+.container-left,
 .container-right {
-  background-color: #000000c2;
+  display: flex;
+  align-items: center;
 }
-.container-left > p {
+/*left side content*/
+.menu-indication > p {
   font-size: 4rem;
   font-family: 'Satisfy', cursive;
   margin-bottom: 0;
   display: flex;
   color: white;
 }
-.code-sign {
-  font-size: 4rem;
-  color: white;
-  font-weight: 900;
-}
-.text > p {
-  font-size: 1.1rem;
-  color: white;
-  line-height: 4rem;
-  text-align: center;
-}
+/*right side content*/
 article {
   width: 100%;
   height: 100%;
-  padding: 2rem 7rem;
-}
-#perfil-picture {
-  border-radius: 100%;
-  margin-right: 3rem;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
 }
 .heading-presentation {
   display: flex;
   color: white;
   align-items: center;
   justify-content: center;
-  margin: 3rem;
+  margin: 2.5rem;
 }
-.picture {
+#perfil-picture {
+  border-radius: 100%;
+  margin-right: 3rem;
+  width: 9rem;
+}
+.text > p {
+  font-size: 1.2rem;
+  color: white;
+  line-height: 2rem;
   text-align: center;
-  margin-top: 4rem;
-}
-.picture > img {
-  width: 16rem;
-}
-.first-word,
-.second-word {
-  display: flex;
 }
 
-
-/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-@media (min-device-width:480px) {
-  html {
-    font-size: calc(10px + 4 * ((100vw - 320px) / 801));
-  }
-  body {
-    background-image: url('../img/poppy-186635_1920.jpg');
-  }
-  .nav-link {
-    font-size: 1.4rem;
-  }
-}
 
 /* smartphones, Android phones, landscape iPhone */
-@media (min-width:510px) {
-  .nav {
-    width: 50%;
-    position: fixed;
-    top: 0;
-    justify-content: unset;
+@media screen and (min-device-width:480px) {
+  html {
+    font-size: calc(10px + 6 * ((100vw - 480px) / 801));
+  }
+  .nav-link {
+    font-size: 19.6px;
+  }
+  article {
+    padding: 2rem 2rem;
+  }
+  .text > p {
+  }
+  .heading-presentation {
+    margin: 2.6rem;
   }
 }
 
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-@media (min-width:600px) {
+@media (min-width:600px) {}
 
+@media screen and (min-width:640px) {
+  .nav {
+    justify-content: unset;
+  }
+  .nav-link {
+    padding: .5rem 0.5rem;
+  }
+    body {
+    background-image: url('../img/poppy-186635_1920.jpg');
+  }
+  article {
+    padding: 2rem 3rem;
+  }
+  .text > p {
+
+  }
+  .heading-presentation {
+    margin: 2.7rem;
+  }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:801px) {
-
+  .container-left {
+    width: 30%;
+  }
+    .container-right {
+    width: 70%;
+  }
+  article {
+    padding: 2rem 5rem;
+  }
+  .text > p {
+    line-height: 2.5rem;
+  }
+  .heading-presentation {
+    margin: 2.8rem;
+  }
 }
 
 /* big landscape tablets, laptops, and desktops */
-@media (min-width:1025px) {
-
+@media (min-width:1027px) {
+  .container-left {
+    width: 40%;
+    justify-content: center;
+  }
+  .container-right {
+    width: 60%;
+  }
+  article {
+    padding: 2rem 6rem;
+  }
+  .text > p {
+    line-height: 3rem;
+  }
+  .heading-presentation {
+    margin: 2.9rem;
+  }
+  .menu-indication:nth-child {
+    font-size: 3rem;
+  }
 }
 
 /* hi-res laptops and desktops */
-@media (min-width:1281px) {
+@media screen and (min-width:1281px) {
   html {
-    font-size: 14px;
+    font-size: 16px;
+  }
+  .container-left,
+  .container-right {
+    width: 50%;
+  }
+  article {
+    padding: 2rem 7rem;
+  }
+  .heading-presentation {
+    margin: 3rem;
   }
 }

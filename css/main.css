@@ -1,4 +1,6 @@
- html {
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+html {
   font-size: 10px;
 }
 body {
@@ -13,6 +15,7 @@ body {
   top: 0;
   justify-content: space-around;
   display: flex;
+  z-index: 1;
 }
 .nav-link {
   color: white;
@@ -61,22 +64,17 @@ a:hover {
 }
 
 
-/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-
 /* smartphones, Android phones, landscape iPhone */
 @media screen and (min-device-width:480px) {
   html {
     font-size: calc(10px + 6 * ((100vw - 480px) / 801));
   }
   .nav-link {
-    color: white;
     font-size: 19.6px;
   }
   .title > h2,
   .subtitle > p {
     font-size: 6rem;
-    line-height: 1;
-    letter-spacing: 0.1em;
     margin-bottom: 1.6rem;
   }
   #title1 {
@@ -97,9 +95,6 @@ a:hover {
 
 @media screen and (min-width:640px) {
   .nav {
-    width: 50%;
-    position: fixed;
-    top: 0;
     justify-content: unset;
   }
   .nav-link {
