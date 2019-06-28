@@ -64,6 +64,8 @@ a:hover {
 /*right side content*/
 .container-icons {
   display: flex;
+  height: 100%;
+  align-items: center;
 }
 .container-icons > p {
   font-size: 4rem;

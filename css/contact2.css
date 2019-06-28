@@ -55,6 +55,8 @@ a:hover {
 }
 .container-icons {
   display: flex;
+  height: 100%;
+  align-items: center;
 }
 
 .code-sign {
