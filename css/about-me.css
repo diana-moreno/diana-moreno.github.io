@@ -40,13 +40,13 @@ a:hover {
   height: 100%;
 }
 .container-left {
-  width: 10%;
+  width: 0%;
   justify-content: left;
 }
 .container-right {
-  width: 90%;
+  width: 100%;
   overflow-y: auto;
-  background-color: #000000c2;
+  background-color: #0000007a;
   justify-content: center;
 }
 .container-left,
@@ -141,6 +141,9 @@ article {
   }
   .menu-indication > p {
     visibility: visible;
+  }
+  .container-right {
+    background-color: #000000c2;
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
