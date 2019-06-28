@@ -11,7 +11,7 @@ body {
   width: 100%;
   position: absolute;
   top: 0;
-  justify-content: space-between;
+  justify-content: flex-start;
   display: flex;
 }
 .nav-link {
@@ -70,7 +70,7 @@ a:hover {
   }
   .nav-link {
     color: white;
-    font-size: 25.6px;
+    font-size: 19.6px;
   }
   .title > h2,
   .subtitle > p {
@@ -101,7 +101,7 @@ a:hover {
 
 }
 
-@media (min-width:818px) {
+@media (min-width:640px) {
   .nav {
     width: 50%;
     position: fixed;
