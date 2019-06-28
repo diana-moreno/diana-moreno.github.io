@@ -86,10 +86,10 @@ article {
   width: 9rem;
 }
 .text > p {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
+  line-height: 2.3rem;
   color: white;
-  line-height: 2rem;
-  text-align: center;
+  text-align: justify;
 }
 
 
@@ -107,6 +107,7 @@ article {
   .text > p {
   }
   .heading-presentation {
+    margin-top: 1rem;
     margin: 2.6rem;
   }
 }
@@ -127,9 +128,6 @@ article {
   article {
     padding: 2rem 3rem;
   }
-  .text > p {
-
-  }
   .heading-presentation {
     margin: 2.7rem;
   }
@@ -147,6 +145,8 @@ article {
   }
   .text > p {
     line-height: 2.5rem;
+    font-size: 1.6rem;
+    text-align: center;
   }
   .heading-presentation {
     margin: 2.8rem;
@@ -190,5 +190,6 @@ article {
   }
   .heading-presentation {
     margin: 3rem;
+
   }
 }
