@@ -46,11 +46,11 @@ a:hover {
 #title1 {
   margin-top: 11rem;
   margin-left: 3rem;
-  animation-delay: 600ms;
+  animation-delay: 500ms;
 }
 #title2 {
   margin-left: 7rem;
-  animation-delay: 1000ms;
+  animation-delay: 800ms;
 }
 .subtitle > p {
   font-size: 1.5rem;
