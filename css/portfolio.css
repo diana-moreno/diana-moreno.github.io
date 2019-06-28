@@ -32,10 +32,27 @@ a:hover {
   color: #127a88;
 }
 /*projects section*/
+.title {
+  margin: 6rem;
+  text-align: center;
+  color: white;
+}
+.title > h2 {
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+}
+.subtitle > h5 {
+  margin: 2rem;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+}
 .container {
-  position: relative;
+  position: flex;
   height: 100%;
   width: 100%;
+  margin-right: 5rem;
 }
 .list-group {
   position: fixed;
@@ -45,21 +62,20 @@ a:hover {
   width: 20%;
 }
 .list-group-item {
-  background-color: #fff0;
+  background-color: #ffffff1c;
   color: white;
 }
 .scrollspy-example {
-  margin: 4rem;
   margin-top: 6rem;
-  width: 80%;
+  margin-left: -9rem;
+  width: 1193px;
 }
 .project {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0000007d;
+  background-color: #0000008f;
   margin-right: 2rem;
-  width: 128%;
 }
 .project-text {
   margin: 2rem;
@@ -72,9 +88,6 @@ a:hover {
 .project-text > h4 {
   color: white;
 }
-
-
-
 
 
 /* smartphones, Android phones, landscape iPhone */
