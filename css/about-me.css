@@ -89,7 +89,7 @@ article {
   font-size: 1.7rem;
   line-height: 2.3rem;
   color: white;
-  text-align: justify;
+  text-align: center;
 }
 
 
@@ -146,7 +146,6 @@ article {
   .text > p {
     line-height: 2.5rem;
     font-size: 1.6rem;
-    text-align: center;
   }
   .heading-presentation {
     margin: 2.8rem;
