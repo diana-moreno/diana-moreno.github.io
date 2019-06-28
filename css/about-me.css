@@ -67,7 +67,7 @@ a:hover {
 }
 article {
   width: 100%;
-  height: -webkit-fill-available;
+  height: 100%;
   padding: 1rem 1rem;
   display: flex;
   align-items: center;
