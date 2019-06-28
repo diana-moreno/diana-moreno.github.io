@@ -40,11 +40,11 @@ a:hover {
   height: 100%;
 }
 .container-left {
-  width: 20%;
+  width: 10%;
   justify-content: left;
 }
 .container-right {
-  width: 80%;
+  width: 90%;
   overflow-y: auto;
   background-color: #000000c2;
   justify-content: center;
@@ -61,6 +61,7 @@ a:hover {
   margin-bottom: 0;
   display: flex;
   color: white;
+  visibility: hidden;
 }
 /*right side content*/
 .container-article {
@@ -117,14 +118,20 @@ article {
 @media (min-width:600px) {}
 
 @media screen and (min-width:640px) {
+    body {
+    background-image: url('../img/poppy-186635_1920.jpg');
+  }
   .nav {
     justify-content: unset;
   }
   .nav-link {
     padding: 1rem 2rem;
   }
-    body {
-    background-image: url('../img/poppy-186635_1920.jpg');
+    .container-left {
+    width: 35%;
+  }
+    .container-right {
+    width: 65%;
   }
   article {
     padding: 2rem 3rem;
@@ -132,15 +139,12 @@ article {
   .heading-presentation {
     margin: 2.7rem;
   }
+  .menu-indication > p {
+    visibility: visible;
+  }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:801px) {
-  .container-left {
-    width: 30%;
-  }
-    .container-right {
-    width: 70%;
-  }
   article {
     padding: 2rem 5rem;
   }
