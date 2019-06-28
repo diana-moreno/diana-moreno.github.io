@@ -167,6 +167,7 @@ article {
   }
   .text > p {
     line-height: 3rem;
+    font-size: 1.2rem;
   }
   .heading-presentation {
     margin: 2.9rem;
