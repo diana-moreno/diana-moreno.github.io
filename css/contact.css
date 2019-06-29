@@ -5,7 +5,7 @@ html {
 body {
   width: 100%;
   box-sizing: content-box;
-  background-image: url('../img/poppy-186635_1920.jpg');
+  background-image: url('../img/poppy-186635_1920-green.jpg');
   background-size: cover;
 }
 /*Navbar*/
@@ -99,7 +99,7 @@ a:hover {
 
 @media screen and (min-width:640px) {
   body {
-    background-image: url('../img/poppy-186635_1920.jpg');
+    background-image: url('../img/poppy-186635_1920-green.jpg');
   }
   .nav {
     justify-content: unset;

@@ -2,17 +2,21 @@
 
 html {
   font-size: 10px;
+    scroll-behavior: smooth;
 }
 body {
   width: 100%;
+  height: 100%;
   box-sizing: content-box;
-  background-image: url("../img/poppy-186635_1920-mobile.jpg");
+  background-image: url("../img/poppy-186635_1920.jpg");
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
 }
 /*Navbar*/
 .nav {
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   justify-content: space-around;
   display: flex;
@@ -31,9 +35,10 @@ body {
 a:hover {
   color: #127a88;
 }
-/*projects section*/
+/*projects section- title and subtitle*/
 .title {
-  margin: 6rem;
+  margin: 5rem;
+  margin-bottom: 2rem;
   text-align: center;
   color: white;
 }
@@ -48,47 +53,51 @@ a:hover {
   letter-spacing: 0.1rem;
   font-size: 1.2rem;
 }
-.container {
-  position: flex;
+/*projects section- articles*/
+.wrap-container {
+  display: flex;
   height: 100%;
   width: 100%;
-  margin-right: 5rem;
 }
 .list-group {
-  position: fixed;
   left: 0;
-  margin: 2rem;
-  width: 20rem;
+  width: 10rem;
   width: 20%;
+  overflow-y: hidden;
+  sssoverflow: scroll;
+  height: 70%;
+  width: 20%;
+}
+.list-group::-webkit-scrollbar {
 }
 .list-group-item {
   background-color: #ffffff1c;
   color: white;
 }
+.list-group-item.active {
+  ssscolor: black;
+  sssbackground-color: white;
+  sssborder-color: white;
+  background-color: #ffffff1c;
+  border: 1px solid rgba(0,0,0,.125);
+}
 .scrollspy-example {
-  margin-top: 6rem;
-  margin-left: -9rem;
-  width: 1193px;
+  overflow: auto;
+  width: 80%;
+  background-color: #ffffff8c;
+  padding: 2rem;
 }
-.project {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #0000008f;
-  margin-right: 2rem;
-}
-.project-text {
-  margin: 2rem;
+.scrollspy-example::-webkit-scrollbar {
+  background-color: #ffffffa8;
+  visibility: hidden;
 }
 .project-picture > img {
   width: 15rem;
-  margin-left: 2rem;
 }
 .project-text > p,
 .project-text > h4 {
-  color: white;
+  color: black;
 }
-
 
 /* smartphones, Android phones, landscape iPhone */
 @media screen and (min-device-width:480px) {
@@ -111,7 +120,7 @@ a:hover {
     padding: 1rem 2rem;
   }
     body {
-    background-image: url('../img/poppy-186635_1920.jpg');
+    background-image: url('../img/poppy-186635_1920-color2.jpg');
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
