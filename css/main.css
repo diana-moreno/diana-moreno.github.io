@@ -32,12 +32,12 @@ a:hover {
 }
 /*title and subtitle*/
 .title-container {
-  height: 40%;
+  height: 43%;
   background-color: #0000007a;
   display: flex;
   align-items: flex-end;
   animation-duration: 1s;
-  padding-bottom: 2rem;
+  padding-bottom: 1.8rem;
 }
 .title > h2,
 .subtitle > p {
