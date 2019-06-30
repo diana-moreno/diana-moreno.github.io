@@ -32,7 +32,7 @@ a:hover {
 }
 /*title and subtitle*/
 .title-container {
-  height: 50%;
+  height: 40%;
   background-color: #0000007a;
   display: flex;
   align-items: flex-end;
