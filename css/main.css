@@ -37,6 +37,7 @@ a:hover {
   display: flex;
   align-items: flex-end;
   animation-duration: 1s;
+  padding-bottom: 2rem;
 }
 .title > h2,
 .subtitle > p {
