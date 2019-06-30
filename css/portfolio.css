@@ -8,10 +8,12 @@ body {
   width: 100%;
   height: 100%;
   box-sizing: content-box;
-  background-image: url("../img/poppy-186635_1920.jpg");
+  background-image: url("../img/flower-background-mobile.jpg");
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /*Navbar*/
 .nav {
@@ -37,7 +39,7 @@ a:hover {
 }
 /*projects section- title and subtitle*/
 .title {
-  margin: 5rem;
+  margin: 4rem;
   margin-bottom: 0;
   text-align: center;
   color: white;
@@ -48,6 +50,7 @@ a:hover {
 }
 .subtitle > h5 {
   margin: 2rem;
+  margin-top: 0;
   color: white;
   text-align: center;
   letter-spacing: 0.1rem;
@@ -62,11 +65,12 @@ a:hover {
 .list-group {
   left: 0;
   width: 10rem;
-  width: 20%;
+  width: 15%;
   overflow-y: hidden;
   sssoverflow: scroll;
   height: 70%;
-  width: 20%;
+  width: 13%;
+  margin-left: 2rem;
 }
 .list-group::-webkit-scrollbar {
 }
@@ -83,9 +87,14 @@ a:hover {
 }
 .scrollspy-example {
   overflow: auto;
-  width: 80%;
-  background-color: #ffffff8c;
+  width: 87%;
+  background-color: white;
   padding: 2rem;
+  margin: 2rem;
+  margin-top: 0;
+  border: 1rem solid #00000052;
+  background-clip: padding-box;
+
 }
 .scrollspy-example::-webkit-scrollbar {
   background-color: #ffffffa8;
@@ -120,7 +129,8 @@ a:hover {
     padding: 1rem 2rem;
   }
     body {
-    background-image: url('../img/poppy-186635_1920-color2.jpg');
+    background-image: url('../img/flower-background.jpg');
+
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */

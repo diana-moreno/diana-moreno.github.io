@@ -5,9 +5,8 @@ html {
 }
 body {
   width: 100%;
-  box-sizing: content-box;
-  background-image: url("../img/poppy-186635_1920-mobile.jpg");
-  background-size: cover;
+  background-image: url("../img/flower-background.jpg")
+
 }
 /*Navbar*/
 .nav {
@@ -32,6 +31,12 @@ a:hover {
   color: #127a88;
 }
 /*title and subtitle*/
+.title-container {
+  height: 60%;
+  background-color: #0000007a;
+  display: flex;
+  align-items: flex-end;
+}
 .title > h2,
 .subtitle > p {
   font-size: 3rem
@@ -44,7 +49,7 @@ a:hover {
   color: white;
 }
 #title1 {
-  margin-top: 11rem;
+  ssmargin-top: 11rem;
   margin-left: 3rem;
   animation-delay: 500ms;
 }
@@ -55,7 +60,7 @@ a:hover {
 .subtitle > p {
   font-size: 1.5rem;
   margin-left: 11rem;
-  color: #d8c2c2;
+  color: #b88d8d;
 }
 .animated {
   animation-duration: 3s;
@@ -79,7 +84,7 @@ a:hover {
     margin-bottom: 1.6rem;
   }
   #title1 {
-    margin-top: 9rem;
+    sssmargin-top: 9rem;
     margin-left: 2rem;
   }
   #title2 {
@@ -100,9 +105,6 @@ a:hover {
   }
   .nav-link {
     padding: 1rem 2rem;
-  }
-    body {
-    background-image: url('../img/poppy-186635_1920.jpg');
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
