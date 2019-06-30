@@ -93,6 +93,9 @@ article {
   color: white;
   text-align: center;
 }
+.text-title {
+  background-color: #b88d8c8f;
+}
 
 
 /* smartphones, Android phones, landscape iPhone */
@@ -104,12 +107,12 @@ article {
     font-size: 19.6px;
   }
   article {
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
   }
   .text > p {
   }
   .heading-presentation {
-    margin-top: 1rem;
+    margin-top: 0rem;
     margin: 2.6rem;
   }
 }
@@ -125,7 +128,7 @@ article {
     justify-content: unset;
   }
   .nav-link {
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
   }
     .container-left {
     width: 35%;
@@ -133,11 +136,9 @@ article {
     .container-right {
     width: 65%;
   }
-  article {
-    padding: 2rem 3rem;
-  }
   .heading-presentation {
     margin: 2.7rem;
+    margin-top: 0rem;
   }
   .menu-indication > p {
     visibility: visible;
@@ -148,15 +149,13 @@ article {
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:801px) {
-  article {
-    padding: 2rem 5rem;
-  }
   .text > p {
     line-height: 2.5rem;
     font-size: 1.6rem;
   }
   .heading-presentation {
     margin: 2.8rem;
+    margin-top: 0rem;
   }
 }
 
@@ -169,15 +168,13 @@ article {
   .container-right {
     width: 60%;
   }
-  article {
-    padding: 2rem 6rem;
-  }
   .text > p {
-    line-height: 3rem;
+    line-height: 2rem;
     font-size: 1.2rem;
   }
   .heading-presentation {
     margin: 2.9rem;
+    margin-top: 0rem;
   }
   .menu-indication:nth-child {
     font-size: 3rem;
@@ -193,11 +190,8 @@ article {
   .container-right {
     width: 50%;
   }
-  article {
-    padding: 2rem 7rem;
-  }
   .heading-presentation {
     margin: 3rem;
-
+    margin-top: 0rem;
   }
 }
