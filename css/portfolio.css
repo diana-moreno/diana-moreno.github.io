@@ -2,7 +2,6 @@
 
 html {
   font-size: 10px;
-    scroll-behavior: smooth;
 }
 body {
   width: 100%;
@@ -47,6 +46,7 @@ a:hover {
 .title > h2 {
   font-size: 2.5rem;
   letter-spacing: 0.2rem;
+  margin-top: 1.5rem;
 }
 .subtitle > h5 {
   margin: 2rem;
@@ -64,13 +64,10 @@ a:hover {
 }
 .list-group {
   left: 0;
-  width: 10rem;
-  width: 15%;
   overflow-y: hidden;
-  sssoverflow: scroll;
+  overflow: auto;
   height: 70%;
-  width: 13%;
-  margin-left: 2rem;
+  width: 0%;
 }
 .list-group::-webkit-scrollbar {
 }
@@ -79,22 +76,16 @@ a:hover {
   color: white;
 }
 .list-group-item.active {
-  ssscolor: black;
-  sssbackground-color: white;
-  sssborder-color: white;
   background-color: #ffffff1c;
   border: 1px solid rgba(0,0,0,.125);
 }
 .scrollspy-example {
   overflow: auto;
-  width: 87%;
+  width: 100%;
   background-color: white;
   padding: 2rem;
   margin: 2rem;
   margin-top: 0;
-  border: 1rem solid #00000052;
-  background-clip: padding-box;
-
 }
 .scrollspy-example::-webkit-scrollbar {
   background-color: #ffffffa8;
@@ -122,15 +113,21 @@ a:hover {
 @media (min-width:600px) {}
 
 @media screen and (min-width:640px) {
+  body {
+    background-image: url('../img/flower-background.jpg');
+  }
   .nav {
     justify-content: unset;
   }
   .nav-link {
     padding: 1rem 2rem;
   }
-    body {
-    background-image: url('../img/flower-background.jpg');
-
+  .list-group {
+    width: 13%;
+    margin-left: 2rem;
+  }
+  .scrollspy-example {
+    width: 87%;
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
