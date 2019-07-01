@@ -79,14 +79,12 @@ a:hover {
 }
 .list-group-item.active {
   background-color: #b88d8c8f;
-  sssborder: 1px solid rgba(0,0,0,.125);
 }
 .scrollspy-example {
   overflow: auto;
   width: 100%;
   background-color: white;
   padding: 2rem;
-  margin: 2rem;
   margin-top: 0;
 }
 .scrollspy-example::-webkit-scrollbar {
@@ -130,6 +128,8 @@ a:hover {
   }
   .scrollspy-example {
     width: 87%;
+    margin: 2rem;
+    margin-top: 0;
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
