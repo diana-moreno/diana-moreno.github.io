@@ -191,7 +191,6 @@ article {
     width: 50%;
   }
   .heading-presentation {
-    margin: 3rem;
-    margin-top: 0rem;
+    margin: 0 3rem 2rem 3rem;
   }
 }
