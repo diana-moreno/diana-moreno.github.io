@@ -34,7 +34,7 @@ body {
   background-color: #b88d8c8f;
 }
 a:hover {
-  color: #127a88;
+  color: #b88d8c8f;
 }
 /*projects section- title and subtitle*/
 .title {
@@ -72,11 +72,11 @@ a:hover {
 .list-group::-webkit-scrollbar {
 }
 .list-group-item {
-  background-color: #ffffff1c;
+  background-color: #b88d8c8f;
   color: white;
 }
 .list-group-item.active {
-  background-color: #ffffff1c;
+  background-color: #b88d8c8f;
   border: 1px solid rgba(0,0,0,.125);
 }
 .scrollspy-example {
