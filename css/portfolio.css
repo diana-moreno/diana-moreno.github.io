@@ -74,10 +74,12 @@ a:hover {
 .list-group-item {
   background-color: #b88d8c8f;
   color: white;
+  margin: 1px;
+  border: 0;
 }
 .list-group-item.active {
   background-color: #b88d8c8f;
-  border: 1px solid rgba(0,0,0,.125);
+  sssborder: 1px solid rgba(0,0,0,.125);
 }
 .scrollspy-example {
   overflow: auto;
