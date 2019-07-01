@@ -91,12 +91,31 @@ a:hover {
   background-color: #ffffffa8;
   visibility: hidden;
 }
-.project-picture > img {
-  width: 15rem;
+.project-container {
+  display: flex;
 }
-.project-text > p,
-.project-text > h4 {
-  color: black;
+.project > h4 {
+  text-align: center;
+  margin: 3rem;
+  background-color: #b88d8c8f;
+}
+.project-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-picture-container > a > img {
+  width: 14rem;
+}
+.project-picture-text {
+  margin-top: 2rem;
+}
+.project-picture-text > p {
+  margin-bottom: 0;
+}
+.project-picture,
+.project-text {
+  width: 33.33%;
 }
 
 /* smartphones, Android phones, landscape iPhone */
