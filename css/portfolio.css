@@ -124,12 +124,12 @@ a:hover {
   }
   .list-group {
     width: 13%;
-    margin-left: 2rem;
+    margin: 0.5rem;
+    margin-top: 0;
   }
   .scrollspy-example {
     width: 87%;
-    margin: 2rem;
-    margin-top: 0;
+    margin: 0 0.5rem 0.5rem 0;
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
