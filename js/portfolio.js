@@ -2,6 +2,7 @@ let project = document.getElementsByClassName('project');
 let elementSelected = document.getElementsByClassName('list-group-item');
 
 //this function shows the project that is active and hides the others
+//if no project is selected, shows the first
 function showActiveProject () {
   project[0].style.display = "block";
   for(let i in elementSelected) {
