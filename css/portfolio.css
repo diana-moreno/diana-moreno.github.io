@@ -108,7 +108,8 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-.project-picture-container > a > img {
+.project-picture-container > a > img,
+.project-picture-container > img {
   width: 14rem;
 }
 .project-picture-text {
@@ -117,9 +118,12 @@ a:hover {
 .project-picture-text > p {
   margin-bottom: 0;
 }
-.project-picture,
+.project-picture {
+  width: 30%
+}
 .project-text {
-  width: 33.33%;
+  width: 35%;
+  margin: 2rem;
 }
 
 /* smartphones, Android phones, landscape iPhone */
