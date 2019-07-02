@@ -90,10 +90,13 @@ a:hover {
   width: 0;
 }
 .project {
-  height: 100%;
+  height: unset;
 }
 .project-container {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .project > h4 {
   text-align: center;
@@ -109,6 +112,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .project-picture-container > a > img,
 .project-picture-container > img {
@@ -120,12 +124,9 @@ a:hover {
 .project-picture-text > p {
   margin-bottom: 0;
 }
-.project-picture {
-  width: 30%
-}
 .project-text {
-  width: 35%;
-  margin: 2rem;
+  width: 80%;
+  margin: 1rem 0;
 }
 
 /* smartphones, Android phones, landscape iPhone */
@@ -156,16 +157,31 @@ a:hover {
     margin: 0.5rem;
     margin-top: 0;
   }
-  sss.scrollspy-example {
-    width: 87%;
-    margin: 0 0.5rem 0.5rem 0;
+  .project {
+    height: 100%;
+  }
+  .project-container {
+    flex-direction: unset;
+    align-items: unset;
+  }
+  .project-picture {
+    display: flex;
+    width: 33.33%;
+  }
+  .project-text {
+    width: 33.33%;
+    margin: 0.5rem;
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:801px) {}
 
 /* big landscape tablets, laptops, and desktops */
-@media (min-width:1025px) {}
+@media (min-width:1025px) {
+  .project-text {
+    margin: 2rem;
+  }
+}
 
 /* hi-res laptops and desktops */
 @media screen and (min-width:1281px) {
