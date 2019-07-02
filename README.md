@@ -1,30 +1,26 @@
-### ABOUT ME
-My name is Diana Moreno and nowadays, I am a Full Stack Web Development student at Skylab Coding Bootcamp.<br>
-I decided to change my career a few months ago, so I had to package and leave the Administration and Accountancy’s world behind, starting a new whole tech path.<br>
-Since I discovered this field, I haven’t stopped learning, and I love it.<br>
+### 1. [My website](https://diana-moreno.github.io)
 
-### PROJECTS
-In this section I will be uploading a few of my personal tech projects.<br> 
-If you want to discuss something about them, just contact me.
+<img src="./img/personal-website2.png" width="300">
 
-### 1. [Calculator](https://diana-moreno.github.io/calculator/)
+This is a website created with the finality to letting know a little about me and my projects.<br>
+In there, I talk about who I am, what I do, how I arrived here and my motivations and pasions. In the portfolio section, are shown a few of my best projects.<br><br>
 
-In this project, I have coded a simple and functional calculator.<br>
-The purpose was to practice with the mix of CSS, HTML, logic Javascript and mouse and keyboard events.<br><br>
 **Features:**
-- Allows to operate with nested parentheses expressions.
-- There's a button to delete the last character introduced.
-- Includes reset button to start new calculations.
-- It's able to acummulate values for the next operation.
-- If the expression is malformed, shows a message.
-- If the expression is too long, the font size is reduced to fit in display.
-- It has been configurated for many sizes of screen and dispositives.
-- Has intuitive colors when operating to be more easily to use
-- Works properly both with keyboard and mouse.
+- The website is divided in four linked sections and all of them, share the same navbar.
+- Every page has an animation just enter to be friendlier and visual.
+- It's built responsive, so it can be opened in severals dispositives.
+- Portfolio pages allows to select the project you are interested in, making scroll automatically only in one side of the page.
+- The contact page has vinculated the email, Github and Linkedin contact to their own logos.
+- The navbar menu has hover and active implemented to change style when click in another section
+- The website keeps the simplicity, sharing background, being organized and easy-reading.
 
+**What I learned:**
 
-### CONTACT
-You can find me in the following platforms:<br>
+- CSS flexbox layout.
+- Some CSS design and styles.
+- Implement libraries like Animate.css to make animations.
+- Add some Bootstrap pieces to the project.
+- Center elements both vertical and horizontal in layout.
+- Hide the scroll bar or change it's style.
+- Mobile first resposive design CSS with media queries.
 
-**GitHub:** [diana-moreno](https://github.com/Diana-moreno)<br>
-**LinkedIn:** [Diana Moreno Arranz](https://www.linkedin.com/in/diana-moreno-arranz-650b84ab/)
