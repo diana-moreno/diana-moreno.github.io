@@ -158,6 +158,7 @@ a:hover {
     margin-top: 0;
   }
   .project {
+    display: none;
     height: 100%;
   }
   .project-container {
@@ -171,6 +172,10 @@ a:hover {
   .project-text {
     width: 33.33%;
     margin: 0.5rem;
+  }
+  .project:target {
+    display: block;
+    height: 100%;
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
