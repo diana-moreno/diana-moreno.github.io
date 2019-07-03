@@ -38,6 +38,7 @@ a:hover {
   align-items: flex-end;
   animation-duration: 1s;
   padding-bottom: 1.8rem;
+  min-height: 10rem;
 }
 .title > h2,
 .subtitle > p {
@@ -76,6 +77,9 @@ a:hover {
   .nav-link {
     font-size: 19.6px;
   }
+  .title-container {
+    min-height: 400px;
+  }
   .title > h2,
   .subtitle > p {
     font-size: 6rem;
@@ -108,11 +112,13 @@ a:hover {
   }
   .title-container {
     height: 60%;
+    min-height: 430px;
   }
   .title > h2,
   .subtitle > p {
     line-height: 1;
   }
+
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:801px) {}
