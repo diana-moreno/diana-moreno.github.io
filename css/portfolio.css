@@ -101,8 +101,7 @@ a:hover {
 .project > h4 {
   text-align: center;
   padding: 2rem 0;
-  background-color: #b88d8c8f;
-  color: white;
+  background: linear-gradient(#b88d8c8f, white);
 }
 .project > p {
   text-align: center;
