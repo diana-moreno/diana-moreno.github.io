@@ -101,11 +101,13 @@ a:hover {
 .project > h4 {
   text-align: center;
   padding: 2rem 0;
-  background: linear-gradient(#b88d8c8f, white);
+  sssbackground: linear-gradient(white, #b88c8c9c);
+  border-bottom: 3px solid #b88c8c9c;
+  font-weight: bold;
 }
 .project > p {
   text-align: center;
-  margin: 4rem 0;
+  margin: 3.5rem 0;
 }
 .project-picture {
   display: flex;
