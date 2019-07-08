@@ -41,13 +41,17 @@ a:hover {
   min-height: 10rem;
 }
 .title > h2,
-.subtitle > p {
+.subtitle > p,
+.carousel-div > h2 {
   font-size: 3rem;
   line-height: 1.5;
   letter-spacing: 0.1em;
   font-family: "futura_m", sans-serif;
   text-shadow: 0 1px 1px rgba(2, 11, 22, 0.5);
   color: white;
+}
+.carousel-div > h2 {
+
 }
 #title1 {
   margin-left: 3rem;
@@ -66,6 +70,28 @@ a:hover {
 }
 .subtitle {
   animation-delay: 1800ms;
+}
+.carousel-div {
+  background-color: #ffffffa1;
+  height: 40%;
+  text-align: center;
+}
+.carousel-div > h2 {
+  padding: 2rem;
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #0000008c;
+}
+.carousel-thirds-containers {
+  display: flex;
+  align-items: center;
+}
+.carousel-third {
+  width: 33.33%;
+  height: 100%;
+}
+.carousel-third > a >img {
+  width: 12rem;
 }
 
 
