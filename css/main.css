@@ -91,7 +91,7 @@ a:hover {
   height: 100%;
 }
 .carousel-third > a >img {
-  width: 12rem;
+  width: 9rem;
 }
 
 
@@ -147,6 +147,9 @@ a:hover {
   .carousel-div {
     height: 40%;
   }
+  .carousel-third > a >img {
+  width: 12rem;
+}
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:801px) {}
