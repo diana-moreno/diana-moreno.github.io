@@ -73,7 +73,7 @@ a:hover {
 }
 .carousel-div {
   background-color: #ffffffcf;
-  height: 40%;
+  height: 57%;
   text-align: center;
 }
 .carousel-div > h2 {
@@ -144,7 +144,9 @@ a:hover {
   .subtitle > p {
     line-height: 1;
   }
-
+  .carousel-div {
+    height: 40%;
+  }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:801px) {}
