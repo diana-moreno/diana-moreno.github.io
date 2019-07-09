@@ -7,6 +7,7 @@ body {
   width: 100%;
   background-image: url("../img/flower-background-mobile.jpg");
   background-size: cover;
+  overflow: hidden;
 }
 /*Navbar*/
 .nav {
@@ -102,7 +103,6 @@ a:hover {
   display: flex;
   align-items: center;
 }
-
 
 /* smartphones, Android phones, landscape iPhone */
 @media screen and (min-device-width:480px) {
