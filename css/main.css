@@ -81,6 +81,7 @@ a:hover {
   padding-bottom: 0.5rem;
   font-size: 2rem;
   color: #0000008c;
+  text-decoration: underline;
 }
 .carousel-thirds-containers {
   display: flex;
@@ -92,6 +93,14 @@ a:hover {
 }
 .carousel-third > a >img {
   width: 9rem;
+}
+#preview {
+  flex-direction: column;
+  position: absolute;
+  right: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
 }
 
 
@@ -148,8 +157,11 @@ a:hover {
     height: 40%;
   }
   .carousel-third > a >img {
-  width: 12rem;
-}
+    width: 18rem;
+  }
+  #calculator-img {
+    width: 12rem;
+  }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:801px) {}
