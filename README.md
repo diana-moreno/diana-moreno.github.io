@@ -14,6 +14,18 @@ In there, I talk about who I am, what I do, how I arrived here and my motivation
 - The navbar menu has hover and active implemented to change style when click in another section
 - The website keeps the simplicity, sharing background, being organized and easy-reading.
 
+**Setup**
+
+If you’d like to view my project in your browser:
+
+- Clone the repository in your computer, you can type the following command in your terminal
+```
+git clone https://github.com/diana-moreno/diana-moreno.github.io.git
+```
+- Open few-seconds-math-game's folder.
+- Open index.html
+
+
 **What I learned:**
 
 - CSS flexbox layout.
