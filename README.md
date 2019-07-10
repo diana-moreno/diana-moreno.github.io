@@ -1,11 +1,14 @@
-### 1. [My website](https://diana-moreno.github.io)
+## **PERSONAL WEBSITE**
 
-<img src="./img/personal-website2.png" width="300">
+<p align="center">
+  <img width="500" src="./img/personal-website2.png">
+</p>
 
 This is a website created with the finality to letting know a little about me and my projects.<br>
 In there, I talk about who I am, what I do, how I arrived here and my motivations and pasions. In the portfolio section, are shown a few of my best projects.<br><br>
 
-**Features:**
+### **Features**
+
 - The website is divided in four linked sections and all of them, share the same navbar.
 - Every page has an animation just enter to be friendlier and visual.
 - It's built responsive, so it can be opened in severals dispositives.
@@ -14,7 +17,7 @@ In there, I talk about who I am, what I do, how I arrived here and my motivation
 - The navbar menu has hover and active implemented to change style when click in another section
 - The website keeps the simplicity, sharing background, being organized and easy-reading.
 
-**Setup**
+### **Setup**
 
 If you’d like to view my project in your browser:
 
@@ -24,9 +27,9 @@ git clone https://github.com/diana-moreno/diana-moreno.github.io.git
 ```
 - Open few-seconds-math-game's folder.
 - Open index.html
+- Otherside, you can run the project here: https://diana-moreno.github.io
 
-
-**What I learned:**
+### **What I learned**
 
 - CSS flexbox layout.
 - Some CSS design and styles.
