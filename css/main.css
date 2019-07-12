@@ -95,7 +95,11 @@ a:hover {
 .carousel-third > a >img {
   width: 9rem;
 }
-
+.carousel,
+#preview,
+#hide {
+  display: none;
+}
 
 /* smartphones, Android phones, landscape iPhone */
 @media screen and (min-device-width:480px) {
