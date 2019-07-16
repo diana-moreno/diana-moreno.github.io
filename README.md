@@ -38,4 +38,6 @@ git clone https://github.com/diana-moreno/diana-moreno.github.io.git
 - Center elements both vertical and horizontal in layout.
 - Hide the scroll bar or change it's style.
 - Mobile first resposive design CSS with media queries.
+- Create local and remote repositories, push and pull, backtrack, create, remove and merge branches with Git and Github.
+- Deploy a project with Github pages.
 
