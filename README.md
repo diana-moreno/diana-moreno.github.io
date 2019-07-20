@@ -25,7 +25,7 @@ If you’d like to view my project in your browser:
 ```bash
 git clone https://github.com/diana-moreno/diana-moreno.github.io.git
 ```
-- Open few-seconds-math-game's folder.
+- Open diana-moreno.github.io's folder.
 - Open index.html
 - Otherside, you can run the project here: https://diana-moreno.github.io
 
