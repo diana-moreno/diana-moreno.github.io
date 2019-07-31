@@ -43,6 +43,7 @@
       <a class="list-group-item list-group-item-action" href="#list-item-4">FAIRYTALE MATCHING</a>
       <a class="list-group-item list-group-item-action" href="#list-item-5">DATA STRUCTURE</a>
       <a class="list-group-item list-group-item-action" href="#list-item-6">THE ALPHABET GAME</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-7">2048 GAME</a>
     </div>
     <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
       <div id="list-item-1" class="project">
@@ -282,6 +283,43 @@
               <li>Set layout with absolute and relative positions.</li>
               <li>Take advantage of inputs radio to allow the user to customize the game.</li>
               <li>Keep the code organized and separated following the MVC (model, view, controller)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="list-item-6" class="project">
+        <h4>2048 GAME</h4>
+        <p>2048 is a single-player sliding block puzzle game designed by Gabriele Cirulli. The game's objective is to slide numbered tiles on a grid to combine them to create a tile with the number 2048. This project is a 2048 clone.</p>
+        <div class="project-container">
+          <div class="project-picture">
+            <div class=project-picture-container>
+              <a href="https://diana-moreno.github.io/2048-game" target="_blank"><img src="./img/2048-game.png" alt="preview of 2048-game" style="width: 17rem"></a>
+              <div class="project-picture-text">
+                <p>Click the picture to run the project!</p>
+                <p>Source code <a href="https://github.com/diana-moreno/2048-game/" target="_blank"><i class="icon fab fa-github" style="color: black;font-size: 1.5rem"></i></a></p>
+              </div>
+            </div>
+          </div>
+          <div class="project-text">
+            <p><strong>Features:</strong>
+            <ul>
+              <li>Two random numbers between 2 and 4 are generated and placed randomly in the grid. There is more probability to get a 2 than a 4.</li>
+              <li>With the keyboard arrows, you lead the direction which the tiles are goint to join.</li>
+              <li>When two numbers are equals, the value is added to one of the tile and empty the other. For example, if the direction selected is to the left, the left tile value will be the double and the right will be none. You play with powers of two.</li>
+              <li>Every time the player makes a movement, a sound is played and another random number is placed in a random place.</li>
+              <li>The game is over when there are no more empty spaces nor movements availables.</li>
+              <li>If you achieve to get 2048 number, you win!</li>
+            </ul>
+          </div>
+          <div class="project-text">
+            <p><strong>What I learned:</strong>
+            <ul>
+              <li>Understand the 2048 game dynamics.</li>
+              <li>Create the logic of the game using JavaScript classes and prototypes.</li>
+              <li>Separate the logic of the game from the JavaScript DOM operations.</li>
+              <li>Create HTML elements and classes dynamically with JS.</li>
+              <li>Make logic code independent, working properly in the Browser console.</li>
+              <li>Create a grid layout with absolute positions and floats.</li>
             </ul>
           </div>
         </div>
