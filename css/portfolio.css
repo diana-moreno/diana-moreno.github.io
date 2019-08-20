@@ -100,9 +100,7 @@ a:hover {
 }
 .project > h4 {
   text-align: center;
-  padding: 2rem 0;
-  sssbackground: linear-gradient(white, #b88c8c9c);
-  border-bottom: 3px solid #b88c8c9c;
+  padding: 4rem 0 2rem 0;
   font-weight: bold;
 }
 .project > p {
