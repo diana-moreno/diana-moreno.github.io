@@ -102,6 +102,8 @@ a:hover {
   text-align: center;
   padding: 4rem 0 2rem 0;
   font-weight: bold;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
 }
 .project > p {
   text-align: center;
