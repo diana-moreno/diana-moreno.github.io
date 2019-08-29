@@ -44,7 +44,7 @@
       <a class="list-group-item list-group-item-action" href="#list-item-5">DATA STRUCTURE</a>
       <a class="list-group-item list-group-item-action" href="#list-item-6">THE ALPHABET GAME</a>
       <a class="list-group-item list-group-item-action" href="#list-item-7">2048 GAME</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-8">MY PERSONAL SCHEDULE</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-8">TO DO - Task manager</a>
     </div>
     <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
       <div id="list-item-1" class="project">
@@ -326,27 +326,30 @@
         </div>
       </div>
       <div id="list-item-8" class="project">
-        <h4>MY PERSONAL SCHEDULE</h4>
-        <p>This schedule manager is my first project made with Bootstrap classes and React. It's easy to add or delete events that will remain sorted by date and time, showing always the most near event first.</p>
+        <h4>TO DO - Task manager</h4>
+        <p>This task manager is my first project made with Bootstrap classes and React. It's easy to add, delete or complete tasks that will remain sorted by date and time, showing always the most near event first.</p>
         <div class="project-container">
           <div class="project-picture">
             <div class=project-picture-container>
-              <a href="https://diana-moreno.github.io/schedule-react" target="_blank"><img src="./img/schedule-react.png" alt="preview of schedule react" style="width: 17rem; height: 13rem"></a>
+              <a href="https://diana-moreno.github.io/todo-react" target="_blank"><img src="./img/todo-react.png" alt="preview of todo react" style="width: 17rem"></a>
               <div class="project-picture-text">
                 <p>Click the picture to run the project!</p>
-                <p>Source code <a href="https://github.com/diana-moreno/schedule-react/" target="_blank"><i class="icon fab fa-github" style="color: black;font-size: 1.5rem"></i></a></p>
+                <p>Source code <a href="https://github.com/diana-moreno/todo-react/" target="_blank"><i class="icon fab fa-github" style="color: black;font-size: 1.5rem"></i></a></p>
               </div>
             </div>
           </div>
           <div class="project-text">
             <p><strong>Features:</strong>
             <ul>
-              <li>There is a form to fill with the main features of an event.</li>
-              <li>If some field is not filled, a message in red will appear.</li>
-              <li>When the form is validated, an event is added to a list in the right panel.</li>
-              <li>The events are shown sorted by date and time.</li>
-              <li>The event list allow to manage the events deleting any existing event.</li>
-              <li>When the page is reloaded, the current events remain in the event list.</li>
+              <li>There is a button to add a task that shows a form to fill.</li>
+              <li>In the form, only the title is required, if it isn't filled, a message in red will appear.</li>
+              <li>When the form is validated, a to-do task is added at the left side.</li>
+              <li>The tasks are shown sorted by date and time.</li>
+              <li>The due date will appear blue if it's still in time, and red if the time is over. When the task is done, it won't have any color.</li>
+              <li>When a task is finished, you can mark it as done, and the task will move to the done side.</li>
+              <li>If a to-do task is checked as done by error, it's possible to revert the movement.</li>
+              <li>Otherside, every task can be deleted at every time.</li>
+              <li>When the page is reloaded, the current taks will remain.</li>
             </ul>
           </div>
           <div class="project-text">
