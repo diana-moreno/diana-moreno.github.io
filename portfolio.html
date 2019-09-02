@@ -44,7 +44,8 @@
       <a class="list-group-item list-group-item-action" href="#list-item-5">DATA STRUCTURE</a>
       <a class="list-group-item list-group-item-action" href="#list-item-6">THE ALPHABET GAME</a>
       <a class="list-group-item list-group-item-action" href="#list-item-7">2048 GAME</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-8">TO DO - Task manager</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-8">TO DO</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-9">EVENTS HUNTER</a>
     </div>
     <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
       <div id="list-item-1" class="project">
@@ -326,7 +327,7 @@
         </div>
       </div>
       <div id="list-item-8" class="project">
-        <h4>TO DO - Task manager</h4>
+        <h4>TO DO</h4>
         <p>This task manager is my first project made with Bootstrap classes and React. It's easy to add, delete or complete tasks that will remain sorted by date and time, showing always the most near event first.</p>
         <div class="project-container">
           <div class="project-picture">
@@ -364,6 +365,43 @@
               <li>Store dates in LocalStorage and update the state.</li>
               <li>Documentate the App with PropTypes.</li>
               <li>Deploy the project to production in Github pages throught a branch.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="list-item-9" class="project">
+        <h4>EVENTS HUNTER</h4>
+        <p>In this page you can obtain information about events of several categories and places. You can save in favourites all the events you have liked the most. Project developed with React, layout applied with UIkit and data obtained from Eventbrite API.</p>
+        <div class="project-container">
+          <div class="project-picture">
+            <div class=project-picture-container>
+              <a href="https://diana-moreno.github.io/events-searcher-React-API" target="_blank"><img src="./img/events-searcher-React-API.png" alt="preview of todo react" style="width: 17rem"></a>
+              <div class="project-picture-text">
+                <p>Click the picture to run the project!</p>
+                <p>Source code <a href="https://github.com/diana-moreno/events-searcher-React-API/" target="_blank"><i class="icon fab fa-github" style="color: black;font-size: 1.5rem"></i></a></p>
+              </div>
+            </div>
+          </div>
+          <div class="project-text">
+            <p><strong>Features:</strong>
+            <ul>
+              <li>The web allows to search events information with three optional criteria: the event name, the city, and the category which belongs.</li>
+              <li>The searcher finds matches in an external API (Eventbrite API).</li>
+              <li>The results are shown in an organized grid layout.</li>
+              <li>In every card event has been included a 'More information' button to click in to open a new website with all the information about it.</li>
+              <li>There is an icon in the left top of every event to mark it as favorite.</li>
+              <li>The events are sincronized with the saved favorites when a new search is done showing a red heart.</li>
+              <li>Favorites kept saved even when the webpage is closed or reloaded.</li>
+            </ul>
+          </div>
+          <div class="project-text">
+            <p><strong>What I learned:</strong>
+            <ul>
+              <li>Obtain data from Eventbrite API and how to extend the default information.</li>
+              <li>Generate layout with UIkit classes.</li>
+              <li>Make queries to the API with NPM Axios.</li>
+              <li>Build a favourites section and syncronize them with new searches.</li>
+              <li>Save favourites data with LocalStorage.</li>
             </ul>
           </div>
         </div>
