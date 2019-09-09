@@ -47,6 +47,7 @@
       <a class="list-group-item list-group-item-action" href="#list-item-8">2048 GAME</a>
       <a class="list-group-item list-group-item-action" href="#list-item-9">TO DO</a>
       <a class="list-group-item list-group-item-action" href="#list-item-10">EVENTS HUNTER</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-11">THE LIFT</a>
     </div>
     <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
       <div id="list-item-1" class="project">
@@ -436,6 +437,41 @@
               <li>Make queries to the API with NPM Axios.</li>
               <li>Build a favourites section and syncronize them with new searches.</li>
               <li>Save favourites data with LocalStorage.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="list-item-11" class="project">
+        <h4>THE LIFT</h4>
+        <p>A traditional lift where multiple people could call it from any floor. The floor will pick the users up and drop them off in the selected floor.<br>
+        The aim of this project is to demonstrate the asynchrony of Node, and then was traslate it to the DOM.</p>
+        <div class="project-container">
+          <div class="project-picture">
+            <div class=project-picture-container>
+              <a href="https://diana-moreno.github.io/the-lift" target="_blank"><img src="./img/the-lift.png" alt="preview of the lift" style="width: 17rem"></a>
+              <div class="project-picture-text">
+                <p>Click the picture to run the project!</p>
+                <p>Source code <a href="https://github.com/diana-moreno/the-lift/" target="_blank"><i class="icon fab fa-github" style="color: black;font-size: 1.5rem"></i></a></p>
+              </div>
+            </div>
+          </div>
+          <div class="project-text">
+            <p><strong>Features:</strong>
+            <ul>
+              <li>The user clicks in one floor to emulate a user calling the lift from that floor.</li>
+              <li></li>The program will ask for name and floor destination.
+              <li>The lift will travel to user's floor, pick him up and drop him off in the destination floor.</li>
+              <li>At the same time, other users are free to call the elevator. If it is on the way, the user will be picked up.</li>
+              <li>There is a section with information about the active and waiting passengers that actualized automatically with every action.</li>
+              <li>The last section logs a history of what's happenning in every second because with the asynchrone could be difficult to attend every detail.</li>
+            </ul>
+          </div>
+          <div class="project-text">
+            <p><strong>What I learned:</strong>
+            <ul>
+              <li>Draw basic elements with CSS like a tree, building, sun, clouds.</li>
+              <li>Animate an element to make move it side to side.</li>
+              <li>Demonstrate the DOM and Node's asynchrony (due to the asynchrony, when the lift is managing several passengers at the same time, is processing more stuff in the same second, so in DOM, I couldn't fix that the elevator went faster).</li>
             </ul>
           </div>
         </div>
