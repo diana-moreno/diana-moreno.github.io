@@ -107,7 +107,7 @@ a:hover {
 }
 .project > p {
   text-align: center;
-  margin: 3.5rem 0;
+  margin: 1.5rem 4rem;
 }
 .project-picture {
   display: flex;
@@ -117,7 +117,7 @@ a:hover {
 }
 .project-picture-container > a > img,
 .project-picture-container > img {
-  width: 14rem;
+  width: 20rem;
 }
 .project-picture-text {
   margin-top: 2rem;
@@ -137,6 +137,10 @@ a:hover {
   }
   .nav-link {
     font-size: 19.6px;
+  }
+  .project > p {
+    text-align: center;
+    margin: 3.5rem 4rem;
   }
 }
 
@@ -165,14 +169,19 @@ a:hover {
   .project-container {
     flex-direction: unset;
     align-items: unset;
+    min-height: 59%;
   }
   .project-picture {
     display: flex;
     width: 33.33%;
+    margin: 2rem;
+    justify-content: center;
+    align-items: flex-start;
   }
   .project-text {
     width: 33.33%;
     margin: 0.5rem;
+    min-height: 18rem;
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
